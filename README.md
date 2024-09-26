@@ -9,4 +9,5 @@
 - The PhysGNN implementation used in this work was originally developed by Salehi et al, available at: https://github.com/YasminSalehi/PhysGNN
 
 # Data Generation
-1- 
+1- Create a conda environment for installing the dependencies that are in the requirements file by running [notebook]
+2-
