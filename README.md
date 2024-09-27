@@ -8,6 +8,5 @@
 - The FEA-baseline using NiftySim and Phantom Reconstruction was adopted from the work of García et al, available at: https://github.com/eloygarcia/niftysim & https://github.com/eloygarcia/RadboudCompression
 - The PhysGNN implementation used in this work was originally developed by Salehi et al, available at: https://github.com/YasminSalehi/PhysGNN
 
-# Data Generation
-1- Create a conda environment for installing the dependencies that are in the requirements file by running [notebook]
-2-
+# Setting the environment:
+Take a look at the Environment folder.
