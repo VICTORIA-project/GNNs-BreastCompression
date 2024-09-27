@@ -10,3 +10,23 @@
 
 
 **To set up the environment, please refer to the instructions in the [Environment](./Environment) folder.**
+
+**To build NiftySim Docker, please follow the instructions:**
+
+```
+git clone https://github.com/eloygarcia/niftysim.git
+cd niftysim
+docker build -t niftysim:2.5 .
+```
+
+**To build Reconstruct Phantom Docker, please follow the instructions:**
+
+```
+git clone https://github.com/eloygarcia/RadboudCompression.git
+cd "RadboudCompression/Phantom Reconstruction/Reconstruct Image"
+docker build -t reconstruct-image .
+```
+
+## Running the simulations:
+
+   
