@@ -8,5 +8,5 @@
 - The FEA-baseline using NiftySim and Phantom Reconstruction was adopted from the work of García et al, available at: https://github.com/eloygarcia/niftysim & https://github.com/eloygarcia/RadboudCompression
 - The PhysGNN implementation used in this work was originally developed by Salehi et al, available at: https://github.com/YasminSalehi/PhysGNN
 
-# Setting the environment:
-Take a look at the Environment folder.
+
+'To set up the environment, please refer to the instructions in the Environment folder.'
