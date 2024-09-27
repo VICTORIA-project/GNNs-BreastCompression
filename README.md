@@ -27,6 +27,14 @@ cd "RadboudCompression/Phantom Reconstruction/Reconstruct Image"
 docker build -t reconstruct-image .
 ```
 
+## Preprocessing the the uncompressed phantom:
+
+**Run the following command with the right paths, in the public dataset there is a metadata csv file that will be needed:**
+
+***The isotropic spacing that was used is 0.273***
+
+`python GNNs-BreastCompression/preprocessing.py <dicom_folder> <csv_file> <output_folder> <isotropic_spacing>`
+
 ## Running the simulations:
 
    
