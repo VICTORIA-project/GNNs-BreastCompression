@@ -29,12 +29,14 @@ docker build -t reconstruct-image .
 
 ## Preprocessing the the uncompressed phantom:
 
-**Run the following command with the right paths, in the public dataset there is a metadata csv file that will be needed:**
+**Run the following command with the right paths, in the public dataset there is a metadata CSV file that will be needed:**
 
 ***The isotropic spacing that was used is 0.273***
 
 `python GNNs-BreastCompression/preprocessing.py <dicom_folder> <csv_file> <output_folder> <isotropic_spacing>`
 
-## Running the simulations:
+## Running the FEA-simulations:
+**Make sure to update the path as prompted in the notebook `niftysim.ipynb`. This notebook can perform incremental simulations by adjusting the thickness and the offset of the plates with each run descendingly and saving the output displacements from the Niftysim Docker output manually. **
 
+## Data Generation:
    
