@@ -1,6 +1,6 @@
 # To set the environment properly and avoid any conflicts follow the steps:
 1. Run the following command line in the terminal, it will create a Conda environment with the name physgnn:
-  conda env create -f GNNs-BreastCompression/Environment/conda_requirements.yml
+  `conda env create -f GNNs-BreastCompression/Environment/conda_requirements.yml`
 2. Activate physgnn env., then install the pip requirements by running the following command:
   conda activate physgnn
   pip install -r GNNs-BreastCompression/Environment/pip_requirements.txt
