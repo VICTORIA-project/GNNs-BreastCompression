@@ -9,4 +9,4 @@
 - The PhysGNN implementation used in this work was originally developed by Salehi et al, available at: https://github.com/YasminSalehi/PhysGNN
 
 
-'To set up the environment, please refer to the instructions in the Environment folder.'
+**To set up the environment, please refer to the instructions in the [Environment](./Environment) folder.**
