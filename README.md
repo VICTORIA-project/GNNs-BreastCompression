@@ -36,7 +36,7 @@ docker build -t reconstruct-image .
 `python GNNs-BreastCompression/preprocessing.py <dicom_folder> <csv_file> <output_folder> <isotropic_spacing>`
 
 ## Running the FEA-simulations:
-**Make sure to update the path as prompted in the notebook `niftysim.ipynb`. This notebook can perform incremental simulations by adjusting the thickness and offset of the plates with each run descendingly and saving the output displacements from the Niftysim Docker output manually.**
+**Make sure to update the path as prompted in the notebook `niftysim.ipynb`. This notebook is to perform run NiftySim simulations. Incremental simulations will be achieved by adjusting the thickness and offset of the plates with each run and manually saving the output displacements from the Niftysim Docker output.**
 
 ## Data Generation:
    
