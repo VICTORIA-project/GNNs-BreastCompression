@@ -1,3 +1,8 @@
+## Folder Structure
+
+The following is the required folder structure for this project. If any of the folders are missing, please create them:
+
+```
 LODO/
 ├── dataset/
 │   ├── a/
@@ -18,3 +23,4 @@ LODO/
     └── csv/
         ├── test/
         └── val/
+```
