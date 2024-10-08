@@ -1,7 +1,7 @@
 ## Folder Structure
 
 The following is the required folder structure for this project. If any of the folders are missing, please create them:
-
+```
 Hold-out/
 ├── dataset/
 │   ├── a/
@@ -19,3 +19,4 @@ Hold-out/
     └── csv/
         ├── test/
         └── val/
+```
