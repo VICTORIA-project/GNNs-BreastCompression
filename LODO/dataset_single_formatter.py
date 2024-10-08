@@ -5,7 +5,7 @@ from preprocessing_single import *
 def dataset_ts(idx):
 
     input_path = 'GNNs-BreastCompression/Data_Generator/input/'
-    output_path = 'GNNs-BreastCompression/Data_Generator/output_single/'   
+    output_path = 'GNNs-BreastCompression/Data_Generator/output_final_step/'   
 
     # Initialization
     elements_filename = input_path + 'elements.csv'
