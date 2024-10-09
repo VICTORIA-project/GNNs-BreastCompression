@@ -5,7 +5,7 @@
 - The FEA-baseline using NiftySim and Phantom Reconstruction was adopted from the work of García et al, available at: https://github.com/eloygarcia/niftysim & https://github.com/eloygarcia/RadboudCompression
 - The PhysGNN implementation used in this work was originally developed by Salehi et al, available at: https://github.com/YasminSalehi/PhysGNN
 
-## Folder Structure:
+## Folder Structure
 **The following is the required folder structure for this project. If any of the folders are missing, please create them:**
 ```
 GNNs-BreastCompression/
