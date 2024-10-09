@@ -60,5 +60,5 @@ docker build -t reconstruct-image .
 **For Leave-one-deforamtion-out experiment, please refer to the instructions in the [LODO](./LODO) folder.**
 
 ## Processing PhysGNN output
-**To produce qualitative results of `LODO` experiment, run `qualitative.ipynb` and make sure to update the path as prompted.**
+**To produce qualitative results of `LODO` experiment, run `qualitative.ipynb` and make sure to update the path as prompted for reconstructing the compressed phantom.**
 
