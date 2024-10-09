@@ -22,9 +22,10 @@ GNNs-BreastCompression/
 └── qualitative.ipynb
 ```
 
-
+## Environment
 **To set up the environment, please refer to the instructions in the [Environment](./Environment) folder.**
 
+## Dockers
 **To build NiftySim Docker, please follow the instructions:**
 
 ```
@@ -40,7 +41,7 @@ git clone https://github.com/eloygarcia/RadboudCompression.git
 cd "RadboudCompression/Phantom Reconstruction/Reconstruct Image"
 docker build -t reconstruct-image .
 ```
-
+# Preprocessing
 ## Preprocessing the the uncompressed phantom:
 
 **Run the following command with the right paths, in the public dataset there is a metadata CSV file that will be needed:**
@@ -49,16 +50,16 @@ docker build -t reconstruct-image .
 
 `python GNNs-BreastCompression/preprocessing.py <dicom_folder> <csv_file> <output_folder> <isotropic_spacing>`
 
-## Running the FEA-simulations:
+# Running the FEA-simulations
 **Make sure to update the path as prompted in the notebook `niftysim.ipynb`. This notebook is for mesh generation, runs NiftySim simulations, and reconstructs the phantom image. Incremental simulations will be achieved by adjusting the thickness and offset of the plates with each run and manually saving the output displacements from the Niftysim Docker output.**
 
-## Data Extraction:
+# Data Extraction
 **Run `mesh_data.ipynb` to extract the data from the uncompressed mesh, and generate the random force directions** 
 
-## Experiments:
+# Experiments
 **For Hold-out experiment, please refer to the instructions in the [Hold-out](./Hold-out) folder.**
 **For Leave-one-deforamtion-out experiment, please refer to the instructions in the [LODO](./LODO) folder.**
 
-## Processing PhysGNN output:
+# Processing PhysGNN output
 **To produce qualitative results of `LODO` experiment, run `qualitative.ipynb` and make sure to update the path as prompted.**
 
