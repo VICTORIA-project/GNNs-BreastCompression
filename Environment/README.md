@@ -1,5 +1,5 @@
 # To set the environment properly and avoid any conflicts follow the steps:
-1. Run the following command line in the terminal, it will create a Conda environment with the name physgnn:
+1. Run the following command line in the terminal, it will create a Conda environment with the name physgnn and install the conda requirements:
    
   `conda env create -f GNNs-BreastCompression/Environment/conda_requirements.yml`
   
