@@ -36,4 +36,13 @@ docker build -t reconstruct-image .
 **Make sure to update the path as prompted in the notebook `niftysim.ipynb`. This notebook is for mesh generation, runs NiftySim simulations, and reconstructs the phantom image. Incremental simulations will be achieved by adjusting the thickness and offset of the plates with each run and manually saving the output displacements from the Niftysim Docker output.**
 
 ## Data Generation:
-   
+**Run `mesh_data.ipynb.ipynb`**
+
+## Experiments:
+**For Hold-out experiment, please refer to the instructions in the [Hold-out](./Hold-out) folder.**
+**For Leave-one-deforamtion-out experiment, please refer to the instructions in the [LODO](./LODO) folder.**
+
+## Processing PhysGNN output:
+**To produce qualitative results of `LODO` experiment, run `qualitative.ipynb` and make sure to update the path as prompted**
+
+## Folder Structure:
