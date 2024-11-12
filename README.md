@@ -5,9 +5,9 @@
 - 
   ```bibtex
   @article{awwad2024,
-    title={Graph Neural Networks for modelling breast biomechanical compression},\
-    author={Awwad, Hadeel and García, Eloy and Martí, Robert},\
-    journal={arXiv preprint arXiv:2411.06596},\ 
+    title={Graph Neural Networks for modelling breast biomechanical compression},
+    author={Awwad, Hadeel and García, Eloy and Martí, Robert},
+    journal={arXiv preprint arXiv:2411.06596},
     year={2024}
   }
 - The breast geometry used in this study, 'UncompressedBreast3,' was obtained from a publicly available dataset on Zenodo, available at: https://zenodo.org/records/4529852
