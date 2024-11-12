@@ -6,9 +6,11 @@
   ```bibtex
   @article{awwad2024,
     title={Graph Neural Networks for modelling breast biomechanical compression},
-    author={Awwad, Hadeel and García, Eloy and Martí, Robert},
-    journal={arXiv preprint arXiv:2411.06596},
-    year={2024}
+    author={Hadeel Awwad and Eloy García and Robert Martí},
+    journal={arXiv preprint},
+    year={2024},
+    doi={arXiv:2411.06596},
+    url={https://arxiv.org/abs/2411.06596}
   }
 - The breast geometry used in this study, 'UncompressedBreast3,' was obtained from a publicly available dataset on Zenodo, available at: https://zenodo.org/records/4529852
 - The mesh generation tool used is Pygalmesh implemented by Schlömer et al, available at: https://github.com/meshpro/pygalmesh
