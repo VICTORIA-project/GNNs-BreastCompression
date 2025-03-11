@@ -1,6 +1,6 @@
 # GNNs-BreastCompression
 
-- The presented code in this repository is the implementation of Graph Neural Networks for modelling breast biomechanical compression, available at: https://doi.org/10.48550/arXiv.2411.06596
+- The presented code in this repository is the implementation of Graph Neural Networks for modelling breast biomechanical compression, available at: https://link.springer.com/chapter/10.1007/978-3-031-77789-9_17
 - Please cite as:
 - 
   ```bibtex
