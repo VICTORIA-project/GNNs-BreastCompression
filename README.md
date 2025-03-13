@@ -13,6 +13,10 @@
     pages="169--180",
     isbn="978-3-031-77789-9"
   }
+
+## Updates for Extended Study
+We are currently updating this repository with new findings from our extended study. The new study builds upon the original work and includes additional analyses and experiments.
+  
 - The breast geometry used in this study, 'UncompressedBreast3,' was obtained from a publicly available dataset on Zenodo, available at: https://zenodo.org/records/4529852
 - The mesh generation tool used is Pygalmesh implemented by Schlömer et al, available at: https://github.com/meshpro/pygalmesh
 - The FEA-baseline using NiftySim and Phantom Reconstruction was adopted from the work of García et al, available at: https://github.com/eloygarcia/niftysim & https://github.com/eloygarcia/RadboudCompression
